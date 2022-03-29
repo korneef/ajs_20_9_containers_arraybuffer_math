@@ -1,10 +1,7 @@
-import MagicChar from './character';
+import MagicChar from './magicChar';
 
 export default class Daemon extends MagicChar {
   constructor(name) {
     super(name, 'Daemon');
-
-    this.attack = 10;
-    this.defence = 40;
   }
 }
